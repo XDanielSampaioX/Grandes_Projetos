@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+main(){
+	char a;
+	int b= (a - 1);
+	printf("%c ",a);
+	   
+    printf("Alfabeto MAIUSCULO\n");
+    	for(a= 'A';a!='Z';a++){
+			
+	   
+		printf("%c ",a);
+	   
+	   
+	   }
+       printf("\n\nAlfabeto minusculo\n");
+       for(a='a';a!='z';a++)printf("%c ",a);
+       printf("\n\n");
+system("pause");
+}
